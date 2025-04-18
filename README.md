@@ -1,12 +1,53 @@
-# React + Vite
+## Crypto Dashboard
+This project is a cryptocurrency dashboard that allows users to view information and charts related to various cryptocurrencies. It includes a cryptocurrency search, price changes, and analytical charts for different currencies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+Search and view information about various cryptocurrencies.
 
-Currently, two official plugins are available:
+Display current price, 24-hour price change, and trading volume.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Analytical charts for each cryptocurrency with visual representation of market data.
 
-## Expanding the ESLint configuration
+Select currency unit for price display (USD, EUR, JPY, GBP, TRY).
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Prerequisites
+Node.js
+NPM (or Yarn)
+
+## Installation
+To install and set up the project, first clone the repository:
+
+```bash
+git clone https://github.com/armitaahmdi/crypto-dashboard.git
+```
+## Navigate to the project folder and install dependencies:
+
+``` bash
+cd crypto-dashboard
+npm install
+```
+
+## Running the Project
+To run the project locally, use the following command:
+
+``` bash
+npm start
+```
+
+This will run the website on http://localhost:5173.
+
+## Technologies
+React
+
+TailwindCSS
+
+Vite (for building and bundling the project)
+
+Recharts (for cryptocurrency charts)
+
+CoinGecko API for searching and retrieving cryptocurrency data
+
+## Help
+If you have any questions or encounter issues, please open an issue on GitHub.
+
+Feel free to add or modify more details as needed!
