@@ -65,7 +65,7 @@ export default function TableRow({ setChart, currency, coins, setInfo }) {
                 <img
                     src={price_change_percentage_24h > 0 ? chartUp : chartDown}
                     alt={name}
-                    className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6"
+                    className="w-10 h-5 md:w-20 md:h-10"
                 />
             </td>
         </tr>
